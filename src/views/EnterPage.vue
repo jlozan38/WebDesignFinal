@@ -8,7 +8,7 @@
         HungryGhost Records
       </div>
       <v-btn x-large color="blue darken-4" dark to="/Home">
-          Enter
+        Enter
       </v-btn>
     </v-layout>
   </v-container>

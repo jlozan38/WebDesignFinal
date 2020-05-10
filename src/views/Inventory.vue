@@ -19,7 +19,7 @@
                 label="Description"
               />
               <v-flex>
-                <v-file-input label="File Input" @change="uploadImage"/>
+                <v-file-input label="File Input" @change="uploadImage" />
               </v-flex>
               <v-layout row>
                 <v-flex xs12 sm6 offset-sm3>
@@ -105,7 +105,6 @@
 <script>
 import { db } from "../plugins/firebase";
 
-
 export default {
   name: "Inventory",
   data() {
@@ -156,7 +155,7 @@ export default {
     async bind() {
       await this.$bind("products", db.collection("products"));
       await this.$bind("orders", db.collection("orders"));
-    },
+    }
   }
 };
 </script>

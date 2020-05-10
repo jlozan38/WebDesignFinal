@@ -11,16 +11,16 @@
     </v-toolbar-title>
 
     <v-spacer></v-spacer>
-      <v-col class="pt-10" cols="20" sm="5" md="5">
-        <v-text-field
-          type="text"
-          :value="searchItem"
-          class="form-input"
-          placeholder="Please Enter Artist or Album Name"
-          @change="setSearchItem"
-          solo
-        ></v-text-field>
-      </v-col>
+    <v-col class="pt-10" cols="20" sm="5" md="5">
+      <v-text-field
+        type="text"
+        :value="searchItem"
+        class="form-input"
+        placeholder="Please Enter Artist or Album Name"
+        @change="setSearchItem"
+        solo
+      ></v-text-field>
+    </v-col>
     <v-spacer></v-spacer>
 
     <v-btn v-if="!user" to="/login" text>

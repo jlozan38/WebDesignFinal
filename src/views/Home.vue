@@ -37,7 +37,6 @@
           <v-card-text class="mt-n6">{{ product.description }}</v-card-text>
           <v-spacer></v-spacer>
           <v-card-actions>
-            
             <v-spacer></v-spacer>
 
             <v-btn icon @click="show = !show">
@@ -54,8 +53,11 @@
               <v-card-text>
                 <v-row align="right">
                   <v-subheader>TRACKLIST </v-subheader>
-                <v-list-item>01. FEEL SPECIAL 02. RAINBOW 03. GET LOUD 04. TRICK IT
-                05. LOVE FOOLISH 06. 21:29 07. BREAKTHROUGH (Korean Ver.)</v-list-item>
+                  <v-list-item
+                    >01. FEEL SPECIAL 02. RAINBOW 03. GET LOUD 04. TRICK IT 05.
+                    LOVE FOOLISH 06. 21:29 07. BREAKTHROUGH (Korean
+                    Ver.)</v-list-item
+                  >
                 </v-row>
               </v-card-text>
             </div>
